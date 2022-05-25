@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zuri html semantics</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      main {
+        /* height: 700px; */
+        /* width: 100%; */
+      }
+      form {
+        display: flexbox;
+        justify-content: center;
+        padding-left: 30px;
+      }
+      input {
+        padding-left: 50px;
+      }
+      .container {
+        /* border-style: solid; */
+        height: 600px;
+        border-bottom: solid;
+        padding-bottom: 15px;
+        background-color: bisque;
+      }
+      .form {
+        /* background-color: cornsilk; */
+        font-size: 25px;
+      }
+      .con {
+        width: 100%;
+        height: 40px;
+        font-size: 30px;
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+      #input {
+        padding-left: 40%;
+        margin-top: 10px;
+        font-size: larger;
+      }
+
+      label {
+        padding-bottom: 50px;
+      }
+      span {
+        /* display: block; */
+        /* padding-left: 50%; */
+        /* margin-left: 50%; */
+      }
+      .buttons {
+        position: absolute;
+        bottom: 300px;
+        left: 35%;
+      }
+
+      button {
+        margin-top: 10px;
+        /* width: 50%; */
+        height: 70px;
+        font-size: large;
+        background-color: lightblue;
+        /* opacity: 0.9; */
+        padding: 10px 10px;
+        width: 200px;
+        gap: 50px;
+        border: none;
+      }
+      button:hover {
+        cursor: pointer;
+      }
+      #para {
+        /* padding-left: 20%; */
+        /* top: 600px; */
+        margin-top: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <p class="con">Quiz on Important Facts</p>
+
+        <div class="form">
+          <form>
+            <p id="para">Which one of these is a JavaScript package manager?</p>
+            <div id="input">
+              <input type="radio" value="node" />
+              <label for="" id="" name="node">a: Node.js</label> <br />
+              <input type="radio" value="typescript" />
+              <label for="" id="">b: TypeScript</label>
+              <br />
+              <input type="radio" id="" name="npm" />
+              <label for="npm">c: npm</label>
+              <br />
+            </div>
+            <span class="buttons">
+              <button>Previous Question</button>
+              <button>Next Question</button>
+            </span>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
