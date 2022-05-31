@@ -1,0 +1,44 @@
+header {
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+/*   padding-bottom: 50px; */
+  color: black;
+  background-color: grey;
+    background-image: linear-gradient(to right, grey , black);
+  border-radius: 25%;
+  min-height: 70px;
+font-size: 25px;
+}
+
+
+table {
+  margin-left: 100px;
+  width: 75%;
+/*   height: 600px; */
+  border: 1px outset black;
+  table-layout: auto;
+  border-collapse: collapse;
+}
+
+body {
+    background-image: linear-gradient(grey, black);
+
+}
+caption {
+/*   caption-side: bottom; */
+}
+
+td {
+  height: 100px;
+}
+
+td:hover {
+  background-color: coral;
+}
+
+tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
+  background: grey;
+}
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+  background: black;
+}
