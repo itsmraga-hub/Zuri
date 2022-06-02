@@ -4,23 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/forms.css" />
+
     <title>login</title>
   </head>
   <body>
-    <header>
-      <h2></h2>
+    <header class="flex">
+      <label for="logo" class="logo">Portfolio</label>
+      <nav>
+        <div class="navigation">
+          <ul class="prinav flex">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
-      <form action="" method="">
-        <label for="login">Email</label>
-        <input type="text" name="email" id="email" required />
-        <br />
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" required />
-        <br />
-        <br />
-        <button>Sign in</button>
-      </form>
+      <div class="login">
+        <div class="log">
+          <form action="" method="">
+            <h3>Login / Sign in</h3>
+            <label for="login">Email</label> <br />
+            <input type="text" name="email" id="email" required />
+            <br />
+            <label for="password">Password</label> <br />
+            <input type="password" name="password" id="password" required />
+            <br />
+            <br />
+            <button class="signbtn">Sign in</button>
+          </form>
+        </div>
+      </div>
     </main>
     <footer></footer>
   </body>

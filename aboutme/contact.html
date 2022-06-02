@@ -4,27 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/forms.css" />
     <title>Contact me</title>
   </head>
   <body>
-    <header></header>
+    <header class="flex">
+      <label for="logo" class="logo">Portfolio</label>
+      <nav>
+        <div class="navigation">
+          <ul class="prinav flex">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <main>
-      <form action="#" method="">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" />
-        <br />
-        <br />
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" required />
-        <br />
-        <br />
-        <label for="message">Message</label>
-        <input type="textarea" name="message" id="message" required />
-        <br />
-        <br />
-        <br />
-        <button>Contact Me</button>
-      </form>
+      <div class="container">
+        <div class="forms">
+          <form action="#" method="">
+            <h3>Contact Me</h3>
+            <br />
+            <label for="name">Name</label> <br />
+            <input type="text" name="name" id="name" />
+            <br />
+            <br />
+            <label for="email">Email</label> <br />
+            <input type="email" name="email" id="email" required />
+            <br />
+            <br />
+            <label for="message">Message</label> <br />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Write me a message here..."
+              cols="40"
+              rows="10"
+            ></textarea>
+            <br />
+            <br />
+            <br />
+            <button class="contactbtn">Contact Me</button>
+          </form>
+        </div>
+      </div>
     </main>
     <footer></footer>
   </body>

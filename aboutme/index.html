@@ -4,64 +4,78 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/f0e9415ee2.js"
+      crossorigin="anonymous"
+    ></script>
     <title>William Raga</title>
   </head>
   <body>
-    <header>
+    <header class="flex">
+      <label for="logo" class="logo">Portfolio</label>
       <nav>
         <div class="navigation">
-          <ul>
-            <li><a href="#">Home</a></li>
+          <ul class="prinav flex">
+            <li><a href="index.html">Home</a></li>
             <li><a href="register.html">Register</a></li>
             <li><a href="login.html">Login</a></li>
             <li><a href="contact.html">Contact Me</a></li>
           </ul>
         </div>
       </nav>
-      <h1>Hi, My name is <em>William Raga</em></h1>
-      <img src="DSC_1243.JPG" alt="A picture of William Raga" />
     </header>
     <main>
-      <h4>A little bit more about me...</h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. A quis officia
-        sed veniam accusantium maxime perferendis iure beatae hic deserunt totam
-        eligendi, tempore unde nihil tempora ipsa dolorum, neque dignissimos.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nemo
-        inventore voluptatum provident quos mollitia magni odit necessitatibus
-        enim quibusdam expedita neque dicta eaque commodi iste, ullam sapiente
-        omnis tenetur!
-      </p>
-      <div>
-        <h4>Hobbies</h4>
-        <ul>
-          <li>Riding bicycle</li>
-          <li>Coding</li>
-          <li>Solving coding challenges</li>
-          <li>Reading</li>
-          <li>Playing football</li>
-        </ul>
+      <div class="jumbotron">
+        <div class="jumbo">
+          <h1 class="">Hi, My name is <span>William Raga</span></h1>
+          <p>I am a fullstack web developer.</p>
+        </div>
+
+        <img src="DSC_1243.JPG" alt="A picture of William Raga" class="me" />
       </div>
-      <div class="priority">
-        <h4>Qualifications</h4>
-        <ol>
-          <li>Hackerrank problem solving certificate</li>
-          <li>FreeCodeCamp Responsive Web Design certification</li>
-          <li>Codewars problem solver</li>
-          <li>Mathematics Expert</li>
-        </ol>
-      </div>
-      <div class="skills">
-        <h4>Other skills...</h4>
-        <ol>
-          <li>chess</li>
-          <li>html</li>
-          <li>css</li>
-          <li>Cards</li>
-        </ol>
+
+      <div class="qualis">
+        <div class="hobby">
+          <h4>Hobbies</h4>
+          <ul class="listing">
+            <li>Riding bicycle</li>
+            <li>Coding</li>
+            <li>Solving coding challenges</li>
+            <li>Reading</li>
+            <li>Playing football</li>
+          </ul>
+        </div>
+        <div class="priority">
+          <h4>Qualifications</h4>
+          <ol class="listing">
+            <li>Hackerrank problem solving certificate</li>
+            <li>FreeCodeCamp Responsive Web Design certification</li>
+            <li>Codewars problem solver</li>
+            <li>Mathematics Expert</li>
+            <li>Web Design</li>
+          </ol>
+        </div>
+        <div class="skills">
+          <h4>Other skills...</h4>
+          <ol class="listing">
+            <li>Chess</li>
+            <li>Html</li>
+            <li>Css</li>
+            <li>Cards</li>
+            <li>Catan</li>
+          </ol>
+        </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="socials">
+        <ul class="flex">
+          <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+          <li><i class="fa-brands fa-github"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

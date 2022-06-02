@@ -4,45 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/forms.css" />
     <title>register page</title>
   </head>
   <body>
-    <header></header>
+    <header class="flex">
+      <label for="logo" class="logo">Portfolio</label>
+      <nav>
+        <div class="navigation">
+          <ul class="prinav flex">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <main>
-      <form action="#" method="">
-        <label for="firstname">First Name</label>
-        <input type="text" name="firstname" id="firstname" />
-        <br />
-        <label for="lastname">Last Name</label>
-        <input type="text" name="lastname" id="lastname" />
-        <br />
-        <label for="phone">Phone</label>
-        <input type="phone" name="phone" id="phone" required />
-        <br />
-        <label for="gender">Gender</label>
-        <select name="gender" id="gender">
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-        </select>
-        <br />
-        <label for="country">Country</label>
-        <input type="text" name="country" id="country" />
-        <br />
-        <label for="state">State/Province</label>
-        <input type="text" name="state" id="state" />
-        <br />
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" required />
-        <br />
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" required />
-        <br />
-        <label for="">Confirm password</label>
-        <input type="password" name="password1" id="password1" required />
-        <br />
-        <br />
-        <button>Sign up</button>
-      </form>
+      <div class="reg">
+        <div class="register">
+          <form action="#" method="">
+            <h3>Register here</h3>
+            <label for="firstname">First Name</label><br />
+            <input type="text" name="firstname" id="firstname" />
+            <br />
+            <label for="lastname">Last Name</label><br />
+            <input type="text" name="lastname" id="lastname" />
+            <br />
+            <label for="phone">Phone</label><br />
+            <input type="phone" name="phone" id="phone" required />
+            <br />
+            <label for="gender">Gender</label><br />
+            <select name="gender" id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+            <br />
+            <label for="country">Country</label><br />
+            <input type="text" name="country" id="country" />
+            <br />
+            <label for="state">State/Province</label><br />
+            <input type="text" name="state" id="state" />
+            <br />
+            <label for="email">Email</label><br />
+            <input type="email" name="email" id="email" required />
+            <br />
+            <label for="password">Password</label><br />
+            <input type="password" name="password" id="password" required />
+            <br />
+            <label for="">Confirm password</label><br />
+            <input type="password" name="password1" id="password1" required />
+            <br />
+            <br />
+            <button class="signbtn">Sign up</button>
+          </form>
+        </div>
+      </div>
     </main>
     <footer></footer>
   </body>

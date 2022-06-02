@@ -4,15 +4,15 @@ header {
 /*   padding-bottom: 50px; */
   color: black;
   background-color: grey;
-    background-image: linear-gradient(to right, grey , black);
+  background-image: radial-gradient(grey , black);
   border-radius: 25%;
   min-height: 70px;
-font-size: 25px;
+  font-size: 25px;
 }
 
 
 table {
-  margin-left: 100px;
+  margin-left: 180px;
   width: 75%;
 /*   height: 600px; */
   border: 1px outset black;
@@ -29,7 +29,7 @@ caption {
 }
 
 td {
-  height: 100px;
+  height: 125px;
 }
 
 td:hover {
@@ -37,8 +37,10 @@ td:hover {
 }
 
 tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
-  background: grey;
+  /* background: grey; */
+  background-image: radial-gradient(grey, black);
 }
 tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
-  background: black;
+  /* background: black; */
+  background-image: radial-gradient(black, grey);
 }
