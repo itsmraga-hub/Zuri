@@ -24,3 +24,15 @@ function calculator(number1, number2, operand)
 }
 
 console.log("Answer: ", calculator(number1, number2, operand));
+
+
+// When run with node
+// C:\FullStack DEV Tutorials\Zuri>node "c:\FullStack DEV Tutorials\Zuri\javascript\calculator.js"
+// CALCULATOR APP
+// 1 - Addition
+// 2 - Subtraction
+// 3 - Multiplication
+// 4 - Division
+
+
+// Answer:  41
